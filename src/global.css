@@ -18,3 +18,11 @@ body {
   background-color: rgb(255, 255, 255);
   color: #333;
 }
+
+footer p {
+  font-family: Cambria, serif;
+}
+
+.outro-texto {
+  text-transform: uppercase;
+}
