@@ -1,8 +1,17 @@
-.menus {
-  text-align: center;
-  font-weight: bold;
-}
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 
-.menu:hover {
-  background-color: white;
+  a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+      color: white;
+    }
+  }
 }
