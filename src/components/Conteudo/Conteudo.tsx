@@ -1,6 +1,7 @@
-import Artigo from "../Artigo/Artigo";
-import DicaDoDia from "../DicaDoDia/DicaDoDia";
+import Artigo from "./Artigo/Artigo";
+import DicaDoDia from "./DicaDoDia/DicaDoDia";
 import estilos from "./Conteudo.module.css";
+import AvisoImportante from "./AvisoImportante/AvisoImportante";
 
 export default function Conteudo() {
   return (
@@ -17,6 +18,8 @@ export default function Conteudo() {
       </section>
 
       <DicaDoDia />
+
+      <AvisoImportante />
     </main>
   );
 }
