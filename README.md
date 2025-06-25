@@ -5,6 +5,11 @@
 módulos CSS (CSS modulos) são uma maneira de escrever CSS em arquivos separados de extensão `.module.css` em cada classe e estilo fica isolando para um único
 componente. há um **acoplamento** entre o modúlo e seu componente, permitindo um escopo bem definido sobre os estilos.
 
+- criação de modulos para cada componente (exceto Rodape)
+- importação do modúlo (chamado de styles ou estilos)
+- aplicação das classes usando className={}
+- reorganização da extensão CSS modules
+
 ## 04_estilos
 
 - CSS global usando seletores tradicionais
