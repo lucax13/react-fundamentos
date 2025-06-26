@@ -14,15 +14,28 @@ export default function Conteudo() {
         <Saudacao nome="Noia" classe="bg-red-100" />
         <p>Este é um exemplo de aplicação React.</p>
 
-        <Artigo
-          titulo="Front-End"
-          texto="Qualquer coisa que se faça no front end"
-          numero={1}
-        />
+        <Artigo titulo="Front-End" numero={1}>
+          <p>Front-end e a parte mais facil da Programação</p>
+        </Artigo>
 
-        <Artigo titulo="Back-End" texto="sei la o que colocar" numero={2} />
+        <Artigo titulo="Back-End" numero={2}>
+          <p>Importante estudar:</p>
+          <ul className="*:list-disc *:ml-7">
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>Orientação Objetos</li>
+          </ul>
+        </Artigo>
 
-        <Artigo titulo="Mobile" texto="Tanto faz aqui" numero={3} />
+        <Artigo titulo="Mobile" numero={3}>
+          <details>
+            <summary>conheça as tecnologias mais usadas</summary>
+            <ol className="*:list-decimal *:ml-7">
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+            </ol>
+          </details>
+        </Artigo>
       </section>
 
       <DicaDoDia />
