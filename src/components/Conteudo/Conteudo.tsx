@@ -4,6 +4,7 @@ import estilos from "./Conteudo.module.css";
 import AvisoImportante from "./AvisoImportante/AvisoImportante";
 import Saudacao from "./Saudacao";
 import cursos from "../../data/cursos";
+import ListaCursos from "../Lista/ListaCursos";
 
 export default function Conteudo() {
   return (
@@ -14,11 +15,7 @@ export default function Conteudo() {
         <Saudacao nome="Lucas" classe="bg-emerald-400" />
         <p>Este é um exemplo de aplicação React.</p>
 
-        <div className={estilos.artigos}>
-          {cursos.map((curso) => {
-            return <Artigo dados={curso} key={curso.id} />;
-          })}
-        </div>
+        <ListaCursos />
       </section>
 
       <DicaDoDia />
