@@ -4,7 +4,10 @@ type SaudacaoProps = {
   classe: string;
 };
 
-export default function Saudacao({ nome, classe }: SaudacaoProps) {
+export default function Saudacao({
+  nome = "visitante",
+  classe,
+}: SaudacaoProps) {
   return (
     <>
       <p className={`my-2 rounded text-center ${classe}`}>
