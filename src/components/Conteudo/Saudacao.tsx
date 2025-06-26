@@ -1,14 +1,14 @@
 /*Deeclara um tipo que séra usado pelas props de componente */
-type Props = {
+type SaudacaoProps = {
   nome: string;
   classe: string;
 };
 
-export default function Saudacao(props: Props) {
+export default function Saudacao({ nome, classe }: SaudacaoProps) {
   return (
     <>
-      <p className={`my-2 rounded text-center ${props.classe}`}>
-        Bem-vindo(a) <b>{props.nome}</b>
+      <p className={`my-2 rounded text-center ${classe}`}>
+        Bem-vindo(a) <b>{nome}</b>
       </p>
     </>
   );
