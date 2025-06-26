@@ -1,5 +1,9 @@
 # Fundamentos de React
 
+## 08_props
+
+props (abreviação de propriedades) são parametros que um componente pode receber.
+
 ## 07_tailwind
 
 Tailwind CSS é um framework utilitário para estilização de sites, onde você aplica classes diretamente no HTML para definir estilos como cores, espaçamentos e fontes. Ele facilita a criação de layouts responsivos e personalizados sem escrever CSS tradicional. É rápido, consistente e muito usado em projetos modernos.
