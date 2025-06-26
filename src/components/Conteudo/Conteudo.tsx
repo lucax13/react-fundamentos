@@ -14,11 +14,15 @@ export default function Conteudo() {
         <Saudacao nome="Noia" classe="bg-red-100" />
         <p>Este é um exemplo de aplicação React.</p>
 
-        <Artigo />
+        <Artigo
+          titulo="Front-End"
+          texto="Qualquer coisa que se faça no front end"
+          numero={1}
+        />
 
-        <Artigo />
+        <Artigo titulo="Back-End" texto="sei la o que colocar" numero={2} />
 
-        <Artigo />
+        <Artigo titulo="Mobile" texto="Tanto faz aqui" numero={3} />
       </section>
 
       <DicaDoDia />
