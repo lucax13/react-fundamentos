@@ -19,3 +19,16 @@
     color: #007acc;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .artigos {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    article {
+      width: 48%;
+    }
+  }
+}

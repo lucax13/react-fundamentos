@@ -14,9 +14,11 @@ export default function Conteudo() {
         <Saudacao nome="Lucas" classe="bg-emerald-400" />
         <p>Este é um exemplo de aplicação React.</p>
 
-        {cursos.map((curso) => {
-          return <Artigo dados={curso} key={curso.id} />;
-        })}
+        <div className={estilos.artigos}>
+          {cursos.map((curso) => {
+            return <Artigo dados={curso} key={curso.id} />;
+          })}
+        </div>
       </section>
 
       <DicaDoDia />
